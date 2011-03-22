@@ -10,7 +10,7 @@ open F, $ARGV[0] or die $!;
 my $buffer;
 read F, $buffer, 8;
 
-my $prev_chunk = undef;
+my $prev_chunk = '';
 my $prev_count = 0;
 my $prev_size = 0;
 
